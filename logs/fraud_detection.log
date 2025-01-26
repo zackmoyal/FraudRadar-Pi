@@ -1,0 +1,60 @@
+2025-01-10 23:29:34,526 - INFO - Logging setup complete. Logs will be saved to 'C:\Users\zackm\OneDrive\FraudRadar Pi\logs\fraud_detection.log'.
+2025-01-10 23:29:34,908 - INFO - Transaction data loaded successfully.
+2025-01-10 23:29:34,929 - INFO - Data Columns: ['id', 'successful', 'hash', 'created_at', 'source_account', 'source_account_sequence', 'fee_account', 'fee_charged', 'max_fee', 'operation_count', 'envelope_xdr', 'result_xdr', 'result_meta_xdr', 'fee_meta_xdr', 'memo_type', 'signatures', 'valid_after', 'valid_before', 'preconditions', 'ledger_attr']
+2025-01-10 23:29:34,931 - INFO - Unique values in 'fee_charged': [100000 200000]
+2025-01-10 23:35:05,289 - INFO - Anomalous Transactions Found: 1
+2025-01-10 23:35:05,298 - INFO - Anomalous transactions saved to 'C:\Users\zackm\OneDrive\FraudRadar Pi\data\anomalous_transactions.csv'.
+2025-01-10 23:38:48,668 - INFO - Logging setup complete. Logs will be saved to 'C:\Users\zackm\OneDrive\FraudRadar Pi\logs\fraud_detection.log'.
+2025-01-10 23:38:49,103 - INFO - Transaction data loaded successfully.
+2025-01-10 23:38:49,121 - INFO - Data Columns: ['id', 'successful', 'hash', 'created_at', 'source_account', 'source_account_sequence', 'fee_account', 'fee_charged', 'max_fee', 'operation_count', 'envelope_xdr', 'result_xdr', 'result_meta_xdr', 'fee_meta_xdr', 'memo_type', 'signatures', 'valid_after', 'valid_before', 'preconditions', 'ledger_attr']
+2025-01-10 23:38:49,122 - INFO - Unique values in 'fee_charged': [100000 200000]
+2025-01-11 00:10:41,680 - INFO - Logging setup complete. Logs will be saved to 'C:\Users\zackm\OneDrive\FraudRadar Pi\logs\fraud_detection.log'.
+2025-01-11 00:10:42,293 - INFO - Transaction data loaded successfully.
+2025-01-11 00:10:42,315 - INFO - Data Columns: ['id', 'successful', 'hash', 'created_at', 'source_account', 'source_account_sequence', 'fee_account', 'fee_charged', 'max_fee', 'operation_count', 'envelope_xdr', 'result_xdr', 'result_meta_xdr', 'fee_meta_xdr', 'memo_type', 'signatures', 'valid_after', 'valid_before', 'preconditions', 'ledger_attr']
+2025-01-11 00:10:42,317 - INFO - Unique values in 'fee_charged': [100000 200000]
+2025-01-11 00:10:42,320 - INFO - Low Fee Transactions Found: 0
+2025-01-11 00:10:42,325 - INFO - Frequent Small Transactions Found: 0 wallets
+2025-01-11 21:45:02,042 - INFO - Histogram saved to 'C:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\transaction_fee_distribution.png'.
+2025-01-11 21:45:03,440 - INFO - Anomalous Transactions Found: 1
+2025-01-11 21:45:03,481 - INFO - Anomalous transactions saved to 'C:\Users\zackm\OneDrive\FraudRadar Pi\data\anomalous_transactions.csv'.
+2025-01-11 21:45:18,250 - INFO - Daily fee chart saved to 'C:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\daily_fee_charged.png'.
+2025-01-11 21:45:29,071 - INFO - Logging setup complete. Logs will be saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\logs\fraud_detection.log'.
+2025-01-11 21:45:29,585 - INFO - Transaction data loaded successfully.
+2025-01-11 21:45:29,601 - INFO - Data Columns: ['id', 'successful', 'hash', 'created_at', 'source_account', 'source_account_sequence', 'fee_account', 'fee_charged', 'max_fee', 'operation_count', 'envelope_xdr', 'result_xdr', 'result_meta_xdr', 'fee_meta_xdr', 'memo_type', 'signatures', 'valid_after', 'valid_before', 'preconditions', 'ledger_attr']
+2025-01-11 21:45:29,602 - INFO - Unique values in 'fee_charged': [100000 200000]
+2025-01-11 21:45:29,605 - INFO - Low Fee Transactions Found: 0
+2025-01-11 21:45:29,607 - INFO - Frequent Small Transactions Found: 0 wallets
+2025-01-11 23:04:47,701 - INFO - Histogram saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\transaction_fee_distribution.png'.
+2025-01-11 23:04:48,133 - INFO - Anomalous Transactions Found: 1
+2025-01-11 23:04:48,145 - INFO - Anomalous transactions saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\data\anomalous_transactions.csv'.
+2025-01-11 23:04:51,187 - INFO - Daily fee chart saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\daily_fee_charged.png'.
+2025-01-16 12:53:18,590 - INFO - Logging setup complete. Logs will be saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\logs\fraud_detection.log'.
+2025-01-16 12:53:19,112 - INFO - Transaction data loaded successfully.
+2025-01-16 12:53:19,140 - INFO - Data Columns: ['id', 'successful', 'hash', 'created_at', 'source_account', 'source_account_sequence', 'fee_account', 'fee_charged', 'max_fee', 'operation_count', 'envelope_xdr', 'result_xdr', 'result_meta_xdr', 'fee_meta_xdr', 'memo_type', 'signatures', 'valid_after', 'valid_before', 'preconditions', 'ledger_attr']
+2025-01-16 12:53:19,141 - INFO - Unique values in 'fee_charged': [100000 200000]
+2025-01-16 12:53:19,144 - INFO - Low Fee Transactions Found: 0
+2025-01-16 12:53:19,146 - INFO - Frequent Small Transactions Found: 0 wallets
+2025-01-16 12:53:59,314 - INFO - Histogram saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\transaction_fee_distribution.png'.
+2025-01-16 12:53:59,489 - INFO - Anomalous Transactions Found: 1
+2025-01-16 12:53:59,500 - INFO - Anomalous transactions saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\data\anomalous_transactions.csv'.
+2025-01-16 12:54:03,460 - INFO - Daily fee chart saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\daily_fee_charged.png'.
+2025-01-16 13:00:02,461 - INFO - Logging setup complete. Logs will be saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\logs\fraud_detection.log'.
+2025-01-16 13:00:02,856 - INFO - Transaction data loaded successfully.
+2025-01-16 13:00:02,871 - INFO - Data Columns: ['id', 'successful', 'hash', 'created_at', 'source_account', 'source_account_sequence', 'fee_account', 'fee_charged', 'max_fee', 'operation_count', 'envelope_xdr', 'result_xdr', 'result_meta_xdr', 'fee_meta_xdr', 'memo_type', 'signatures', 'valid_after', 'valid_before', 'preconditions', 'ledger_attr']
+2025-01-16 13:00:02,872 - INFO - Unique values in 'fee_charged': [100000 200000]
+2025-01-16 13:00:02,873 - INFO - Low Fee Transactions Found: 0
+2025-01-16 13:00:02,875 - INFO - Frequent Small Transactions Found: 0 wallets
+2025-01-16 13:00:09,490 - INFO - Histogram saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\transaction_fee_distribution.png'.
+2025-01-16 13:00:09,673 - INFO - Anomalous Transactions Found: 1
+2025-01-16 13:00:09,680 - INFO - Anomalous transactions saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\data\anomalous_transactions.csv'.
+2025-01-16 13:00:13,501 - INFO - Daily fee chart saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\daily_fee_charged.png'.
+2025-01-17 03:28:33,710 - INFO - Logging setup complete. Logs will be saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\logs\fraud_detection.log'.
+2025-01-17 03:28:34,133 - INFO - Transaction data loaded successfully.
+2025-01-17 03:28:34,150 - INFO - Data Columns: ['id', 'successful', 'hash', 'created_at', 'source_account', 'source_account_sequence', 'fee_account', 'fee_charged', 'max_fee', 'operation_count', 'envelope_xdr', 'result_xdr', 'result_meta_xdr', 'fee_meta_xdr', 'memo_type', 'signatures', 'valid_after', 'valid_before', 'preconditions', 'ledger_attr']
+2025-01-17 03:28:34,151 - INFO - Unique values in 'fee_charged': [100000 200000]
+2025-01-17 03:28:34,153 - INFO - Low Fee Transactions Found: 0
+2025-01-17 03:28:34,156 - INFO - Frequent Small Transactions Found: 0 wallets
+2025-01-17 03:29:23,492 - INFO - Histogram saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\transaction_fee_distribution.png'.
+2025-01-17 03:29:23,688 - INFO - Anomalous Transactions Found: 1
+2025-01-17 03:29:23,694 - INFO - Anomalous transactions saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\data\anomalous_transactions.csv'.
+2025-01-17 03:29:25,378 - INFO - Daily fee chart saved to 'c:\Users\zackm\OneDrive\FraudRadar Pi\visualizations\daily_fee_charged.png'.

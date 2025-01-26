@@ -1,0 +1,7 @@
+2025-01-10 23:20:33,204 - INFO - Transaction data loaded successfully.
+2025-01-10 23:20:33,205 - INFO - Data Columns: ['id', 'successful', 'hash', 'created_at', 'source_account', 'source_account_sequence', 'fee_account', 'fee_charged', 'max_fee', 'operation_count', 'envelope_xdr', 'result_xdr', 'result_meta_xdr', 'fee_meta_xdr', 'memo_type', 'signatures', 'valid_after', 'valid_before', 'preconditions', 'ledger_attr']
+2025-01-10 23:20:33,205 - INFO - Unique values in 'fee_charged': [100000 200000]
+2025-01-10 23:21:34,692 - INFO - Anomalous Transactions Found: 15
+2025-01-10 23:21:34,705 - INFO - Anomalous transactions saved to 'C:\Users\zackm\OneDrive\FraudRadar Pi\data\anomalous_transactions.csv'.
+2025-01-10 23:21:34,706 - INFO - Large Transactions Found: 1
+2025-01-10 23:21:34,712 - INFO - Frequent Small Transactions Found: 0 accounts.
